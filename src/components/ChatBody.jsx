@@ -4,6 +4,11 @@ import ChatHeader from "./ChatHeader";
 import ChatInput from "./ChatInput";
 import EmptyScreen from "./EmptyScreen";
 import MessageBubble from "./MessageBubble";
+import { useMemo } from "react";
+
+const messages = useMemo(() => {
+  return state.messages[state.selectedChat] || [];
+}, [state.messages, state.selectedChat]);
 
 export default function ChatBody() {
   const { state, dispatch } = useContext(ChatContext);
