@@ -29,6 +29,27 @@ All messages are stored in the browser using localStorage.
 
 ## ⚙️ Setup Instructions
 
-1. Clone the repository:
+### Clone the repository:
 ```bash
 git clone https://github.com/salonikushwah/whatsapp-web-clone.git
+```
+
+### Go to project folder:
+```bash
+cd whatsapp-web-clone
+```
+
+### Install dependencies:
+```bash
+npm install
+```
+
+### Run the app:
+```bash
+npm start
+```
+
+---
+
+## 👩‍💻 Author
+Saloni Kushwah
