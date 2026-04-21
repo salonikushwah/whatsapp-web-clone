@@ -5,7 +5,7 @@ import logo from "../assets/whatshapplogo.png";
 export default function Sidebar() {
   const { dispatch } = useContext(ChatContext);
 
-  const contacts = ["Shruti", "Muskan", "Priyanka", "Prachi", "Mani", "Mohit", "Anushka"];
+  const contacts = ["Shruti", "Muskan", "Priyanka", "Prachi", "Mani", "Mohit", "Anushka", "Ayushi", "Saloni", "Shraddha"];
 
   return (
     <div className="sidebar">
