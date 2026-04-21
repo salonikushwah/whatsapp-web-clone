@@ -1,13 +1,91 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.chatInput {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: #f0f2f5;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.chatInput input {
+  flex: 1;
+  padding: 10px;
+  margin: 0 10px;
+  border-radius: 20px;
+  border: none;
+}
+
+.chatInput button {
+  background: green;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.preview {
+  width: 60px;
+  margin-right: 10px;
+}
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 30%;
+  background: #111b21;
+  color: white;
+}
+
+.contact {
+  padding: 15px;
+  border-bottom: 1px solid #2a3942;
+  cursor: pointer;
+}
+
+
+.contact:hover {
+  background: #2a3942;
+}
+.sidebar {
+  width: 30%;
+  background: #111b21;
+  color: white;
+}
+
+.contact {
+  padding: 15px;
+  border-bottom: 1px solid #2a3942;
+  cursor: pointer;
+}
+
+.contact:hover {
+  background: #2a3942;
+}
+.chat {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  background: #efeae2;
+}
+
+.messages {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+.emptyScreen {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #667781;
 }
